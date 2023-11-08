@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 1229756300}
   - component: {fileID: 1229756299}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: 'Sub - Lot - GameObject '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
