@@ -22,7 +22,7 @@ namespace GameObjectWay.Manager
             for (int i = 0; i < SpawnNumber; i++)
             {
                 GameObject dancerGameObject = Instantiate(Pulse);
-                DancerMono dancerInstance = dancerGameObject.AddComponent<DancerMono>();
+                DancerMono dancerInstance = dancerGameObject.GetComponent<DancerMono>();
                 dancerInstance.Speed = new Random(_rand.NextUInt()).NextFloat(1, 8);
                 dancerGameObject.transform.SetPositionAndRotation(_rand.NextOnDisk() * SpawnRadius, _rand.NextYRotation());
             }

@@ -4,8 +4,9 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-namespace ECS.Systems
+namespace ECS.Systems.BurstMulti
 {
+    [BurstCompile]
     public partial struct WalkerBurstMultiSystem : ISystem
     {
         public void OnCreate(ref SystemState state)
@@ -25,6 +26,7 @@ namespace ECS.Systems
         {
             public float DeltaTime;
 
+            [BurstCompile]
             void Execute(in WalkerComponent walker, ref LocalTransform transform)
             {
                 quaternion rotateY = quaternion.RotateY(walker.AngularSpeed * DeltaTime);

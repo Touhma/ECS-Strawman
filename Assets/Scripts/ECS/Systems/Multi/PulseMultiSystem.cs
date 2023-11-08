@@ -1,10 +1,9 @@
 using ECS.Components;
-using Unity.Burst;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-namespace ECS.Systems
+namespace ECS.Systems.Multi
 {
     public partial struct PulseMultiSystem : ISystem
     {

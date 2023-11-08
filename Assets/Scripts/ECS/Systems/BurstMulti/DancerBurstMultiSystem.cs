@@ -4,8 +4,9 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-namespace ECS.Systems
+namespace ECS.Systems.BurstMulti
 {
+    [BurstCompile]
     public partial struct DancerBurstMultiSystem : ISystem
     {
         public void OnCreate(ref SystemState state)
@@ -25,6 +26,7 @@ namespace ECS.Systems
         {
             public float Elapsed;
 
+            [BurstCompile]
             void Execute(in DancerComponent dancer, ref LocalTransform transform)
             {
                 float roSpeed = dancer.Speed * Elapsed;

@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prefab: {fileID: 1421685506020042697, guid: ac6cd1d86756b3b438f1c194e956648a, type: 3}
   SpawnRadius: 20
-  SpawnCount: 5000
+  SpawnCount: 500000
   RandomSeed: 100
 --- !u!1 &245128022
 GameObject:
@@ -231,7 +231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &768399033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &862982581
 MonoBehaviour:
   m_ObjectHideFlags: 0
