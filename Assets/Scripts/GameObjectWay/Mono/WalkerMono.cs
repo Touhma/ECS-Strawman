@@ -1,7 +1,7 @@
 ﻿using Unity.Mathematics;
 using UnityEngine;
 
-namespace GameObject.Mono
+namespace GameObjectWay.Mono
 {
     public class WalkerMono : MonoBehaviour
     {

@@ -7,6 +7,11 @@ namespace ECS.Systems
 {
     public partial struct DancerSystem : ISystem
     {
+        public void OnCreate(ref SystemState state)
+        {
+            state.RequireForUpdate<MonoComponent>();
+        }
+
         public void OnUpdate(ref SystemState state)
         {
             float elapsed = (float)SystemAPI.Time.ElapsedTime;

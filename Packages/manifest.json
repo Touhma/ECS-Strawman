@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.unity.entities.graphics": "1.0.14",
+    "com.unity.entities.graphics": "1.0.16",
     "com.unity.ide.rider": "3.0.26",
     "com.unity.render-pipelines.universal": "14.0.9",
     "jp.keijiro.metatex": "1.0.4",
