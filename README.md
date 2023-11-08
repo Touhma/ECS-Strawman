@@ -1,6 +1,7 @@
 # ECS-Strawman-Custom
 
 ![gif](https://github.com/keijiro/SimpleECS/assets/343936/e9bdc499-5acf-4c11-8407-b4254d215f67)
+![gif](https://github.com/keijiro/ECS-StrawmanParallel/assets/343936/9a22509c-98e4-4ff2-9df1-b9dcc6413222)
 
 **ECS-Strawman** is a small sample project for Unity ECS (Entity Component System).
 It is a custom Demo project based on keijiro's main repos that I shamelessly stole and adapted with a multistep comparison.
